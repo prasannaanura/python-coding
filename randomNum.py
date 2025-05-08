@@ -8,6 +8,6 @@ while True:
         print("you win!")
         break
     elif randomNumber > guessNumber:
-        print(randomNumber,"Your guess too high!")
+        print("Your guess too high!")
     else:
-        print(randomNumber,"Your guess low!")
+        print("Your guess low!")
